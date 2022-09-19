@@ -1,0 +1,57 @@
+:not(.no-global-styles) > a {
+  cursor: pointer;
+  color: black;
+}
+
+@font-face {
+  font-family: "ZDN";
+  src: url("/fonts/segoeui-bold.woff2");
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ZDN";
+  src: url("/fonts/segoeui-semibold.woff2");
+  font-style: bold;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ZDN";
+  src: url("/fonts/segoeui-regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ZDN";
+  src: url("/fonts/segoeui-semilight.woff2");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+:root {
+  --text-color: red;
+}
+
+html {
+  padding: 0 0 30px 0;
+  background-color: #fafafa;
+  letter-spacing: -0.3px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "ZDN", "Segoe UI", open sans, Helvetica, Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  font: 112.5%/1.45em sans-serif;
+  /* 1rem = 10px */
+  /* font-size: 62.5%; */
+  overflow-y: scroll;
+}

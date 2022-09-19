@@ -1,0 +1,86 @@
+{
+  "name": "zcdnadmin-v3",
+  "version": "3.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build && next export",
+    "dev": "next dev -p 3456",
+    "lint": "eslint . --ext .ts",
+    "start": "next start",
+    "test": "jest",
+    "type-check": "tsc"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "dependencies": {
+    "@fluentui/example-data": "^8.4.1",
+    "@fluentui/react": "latest",
+    "@fluentui/react-hooks": "^8.6.3",
+    "@fluentui/react-icons": "^2.0.178",
+    "@reduxjs/toolkit": "^1.8.3",
+    "axios": "latest",
+    "next": "latest",
+    "next-plugin-preact": "^3.0.7",
+    "next-seo": "latest",
+    "preact": "^10.10.0",
+    "preact-render-to-string": "^5.2.1",
+    "react": "npm:@preact/compat@^17.1.1",
+    "react-dom": "npm:@preact/compat@^17.1.1",
+    "react-redux": "*",
+    "react-ssr-prepass": "npm:preact-ssr-prepass@^1.2.0"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^12.2.3",
+    "@next/eslint-plugin-next": "^12.2.3",
+    "@types/node": "~18.6.3",
+    "@types/react": "~17.0.2",
+    "@types/react-dom": "~17.0.2",
+    "@types/react-redux": "*",
+    "@types/styled-components": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "cross-env": "latest",
+    "eslint": "latest",
+    "eslint-config-airbnb": "*",
+    "eslint-config-airbnb-base": "*",
+    "eslint-config-airbnb-typescript": "*",
+    "eslint-config-prettier": "*",
+    "eslint-config-react-app": "*",
+    "eslint-import-resolver-ts": "*",
+    "eslint-import-resolver-typescript": "*",
+    "eslint-plugin-flowtype": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-jest-dom": "*",
+    "eslint-plugin-jsx-a11y": "*",
+    "eslint-plugin-prettier": "*",
+    "eslint-plugin-react": "*",
+    "eslint-plugin-react-hooks": "*",
+    "less": "*",
+    "less-loader": "*",
+    "next-compose-plugins": "latest",
+    "prettier": "latest",
+    "prop-types": "*",
+    "source-map-explorer": "*",
+    "styled-components": "latest",
+    "ts-node": "*",
+    "typescript": "latest",
+    "webpack": "*",
+    "webpack-cli": "*"
+  }
+}
